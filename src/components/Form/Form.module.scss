@@ -1,0 +1,39 @@
+@import "../../styles/variables.scss";
+
+.title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.error {
+  color: $primary;
+  width: 100%;
+  text-align: center;
+  &::before {
+    content: "Error: ";
+  }
+}
+
+.field {
+  height: 2rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding-left: 0.5rem;
+  border-style: solid;
+}
+
+.button {
+  margin-top: 1rem;
+}
+
+.link {
+  color: $primary;
+  margin-top: 1rem;
+  align-self: flex-end;
+}

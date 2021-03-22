@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+$shadow: 3px 3px 5px $primaryShadow;
+
+.card {
+  padding: 2rem;
+  border-radius: 10px;
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
